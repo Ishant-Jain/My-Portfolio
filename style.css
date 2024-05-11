@@ -1,0 +1,249 @@
+.portfolio {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio .div {
+  background-color: #ffffff;
+  width: 1767px;
+  height: 1844px;
+  position: relative;
+}
+
+.portfolio .navigation {
+  height: 164px;
+  top: 0;
+  position: absolute;
+  width: 1767px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.portfolio .items {
+  width: 744px;
+  height: 67px;
+  align-items: center;
+  justify-content: space-between;
+  top: 47px;
+  left: 991px;
+  display: flex;
+  position: absolute;
+}
+
+.portfolio .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 200px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 24px;
+  position: relative;
+  margin-top: -11.5px;
+  margin-bottom: -11.5px;
+  background-color: #000000;
+  border-radius: 30px;
+  box-shadow: 0px 1px 2px #0000000d;
+}
+
+.portfolio .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.portfolio .overlap-group {
+  position: absolute;
+  width: 624px;
+  height: 153px;
+  top: 8px;
+  left: 64px;
+}
+
+.portfolio .text-wrapper-2 {
+  position: absolute;
+  width: 624px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 96px;
+  letter-spacing: -1.92px;
+  line-height: normal;
+}
+
+.portfolio .text-wrapper-3 {
+  position: absolute;
+  width: 624px;
+  top: 105px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #828282;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.portfolio .navigation-footer {
+  height: 400px;
+  top: 1444px;
+  position: absolute;
+  width: 1767px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.portfolio .items-2 {
+  flex-direction: column;
+  width: 187px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--variable-collection-spacing-s);
+  top: 48px;
+  left: 981px;
+  display: flex;
+  position: absolute;
+}
+
+.portfolio .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--small-text-font-family);
+  font-weight: var(--small-text-font-weight);
+  color: #000000;
+  font-size: var(--small-text-font-size);
+  letter-spacing: var(--small-text-letter-spacing);
+  line-height: var(--small-text-line-height);
+  font-style: var(--small-text-font-style);
+}
+
+.portfolio .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--small-text-font-family);
+  font-weight: var(--small-text-font-weight);
+  color: #444444;
+  font-size: var(--small-text-font-size);
+  letter-spacing: var(--small-text-letter-spacing);
+  line-height: var(--small-text-line-height);
+  font-style: var(--small-text-font-style);
+}
+
+.portfolio .items-3 {
+  flex-direction: column;
+  width: 187px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--variable-collection-spacing-s);
+  top: 48px;
+  left: 1241px;
+  display: flex;
+  position: absolute;
+}
+
+.portfolio .items-4 {
+  flex-direction: column;
+  width: 187px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--variable-collection-spacing-s);
+  top: 48px;
+  left: 1500px;
+  display: flex;
+  position: absolute;
+}
+
+.portfolio .text-wrapper-6 {
+  position: absolute;
+  height: 36px;
+  top: 51px;
+  left: 80px;
+  font-family: var(--subheading-font-family);
+  font-weight: var(--subheading-font-weight);
+  color: #000000;
+  font-size: var(--subheading-font-size);
+  letter-spacing: var(--subheading-letter-spacing);
+  line-height: var(--subheading-line-height);
+  white-space: nowrap;
+  font-style: var(--subheading-font-style);
+}
+
+.portfolio .social-icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: var(--variable-collection-spacing-XS);
+  position: absolute;
+  top: 176px;
+  left: 80px;
+}
+
+.portfolio .buttons-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.portfolio .icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 8px;
+}
+
+.portfolio .img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+}
+
+.portfolio .icon-2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 3px;
+  left: 3px;
+}
+
+.portfolio .icon-3 {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  top: 5px;
+  left: 2px;
+}
+
+.portfolio .divider {
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  top: 0;
+  left: 80px;
+  object-fit: cover;
+}
+
+.portfolio .whatsapp-image {
+  position: absolute;
+  width: 534px;
+  height: 513px;
+  top: 213px;
+  left: 64px;
+}
